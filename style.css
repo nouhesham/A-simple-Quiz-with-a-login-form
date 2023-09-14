@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+}
+.firstsection {
+  width: 75%;
+  margin: auto;
+  background-color: rgb(166, 58, 216);
+  margin-top: 40px;
+  border-radius: 30px;
+  max-height: 100vh;
+}
+
+img {
+  max-width: 80%;
+  padding: 0;
+  background-color: 
+}
+
+.btn {
+  background-color: rgb(246, 177, 72);
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(200, 129, 15);
+}
+
+.false {
+  border: 3px solid red;
+}
+.hidden {
+  display: none;
+}

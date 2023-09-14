@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="./assets/icon.png" />
+    <link rel="stylesheet" href="./assets/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="firstsection">
+        <div class="section-1 d-flex justify-content-center">
+          <div class="row justify-content-center m-auto align-items-center">
+            <h1
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              class="text-white text-center"
+            >
+              welcome to our quiz
+            </h1>
+            <div class="col col-md-5 col-sm-12 mx-lg-5 align-items-left">
+              <form>
+                <label for="exampleFormControlInput1">Email</label>
+                <input
+                  type="email"
+                  id="exampleFormControlInput1"
+                  class="form-control p-3 black"
+                  placeholder="ash@loremcompany.com"
+                  required
+                />
+                <label for="exampleFormControlInput2">Password</label>
+                <input
+                  type="password"
+                  id="exampleFormControlInput2"
+                  class="form-control p-3 black"
+                  placeholder="ashelnN#12"
+                  required
+                />
+                <input type="checkbox" onclick="visibleFunction()" />Show
+                Password
+              </form>
+              <div class="button d-flex justify-content-center mt-3">
+                <a class="anchor" href="#"
+                  ><button class="btn submit-btn p-3 m-3" type="submit">
+                    Enter quiz
+                  </button></a
+                >
+              </div>
+              <div class="passwordrules">
+                <p>Password must contain</p>
+                <ul>
+                  <li>At least one lowercase letter</li>
+                  <li>At least one highercase letter</li>
+                  <li>At least one number</li>
+                  <li>At least one symbol</li>
+                  <li>At least eight digits</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col col-md-5 col-sm-12 p-3 d-block image-1">
+              <div class="section-image">
+                <img
+                  src="./assets/pexels-anna-shvets-3683107.jpg"
+                  alt="photo"
+                  class="img-fluid img-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./assets/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

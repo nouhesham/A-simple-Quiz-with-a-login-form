@@ -1,0 +1,70 @@
+.row {
+  width: 80%;
+  background-color: rgb(192, 167, 215);
+  border-radius: 15px;
+  margin: auto;
+}
+.button {
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+}
+.col {
+  text-align: center;
+}
+span {
+  margin-left: 50px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.imgdiv {
+  width: 50%;
+}
+.flexrowcongrats {
+  display: flex;
+  justify-content: space-around;
+}
+.flexrow {
+  display: flex;
+}
+.flexrow2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+div p:nth-child(1) {
+  display: inline-block;
+}
+.style {
+  margin-left: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5px;
+}
+h1 {
+  margin-left: 20px;
+}
+.scorep {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.btn {
+  background-color: rgb(217, 37, 223);
+  color: white;
+}
+
+.rowscore {
+  background-image: url("./assets/congrats.avif");
+  width: 100%;
+  height: 400px;
+}
